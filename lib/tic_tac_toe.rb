@@ -61,11 +61,9 @@ class TicTacToe
       move(index)
       display_board
     end
-
-
-
-
     end
+
+    
 
 
 end
