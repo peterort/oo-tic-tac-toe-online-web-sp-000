@@ -55,7 +55,15 @@ class TicTacToe
 
     def turn(input)
       puts "Please enter your move between 1-9"
-      
+#      ask for input
+#get input
+#translate input into index
+#if index is valid
+#  make the move for index
+#  show the board
+#else
+#  restart turn
+#end
     end
 
 
