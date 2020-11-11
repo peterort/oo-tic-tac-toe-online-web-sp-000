@@ -1,2 +1,2 @@
-def TicTacToe
+class TicTacToe
 end
