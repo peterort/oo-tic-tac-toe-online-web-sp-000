@@ -104,21 +104,12 @@ def play
   until won? || over? || draw?
     turn
   end
-
-#  #until the game is over
-#  take turns
-#end
+  
  if won?
    puts "Congratulations #{winner}!!!"
  else
    puts "The game ended in a draw."
  end
-
-#if the game was won
-#  congratulate the winner
-#else if the game was a draw
-#  tell the players it ended in a draw
-#end
 end
 
 
