@@ -106,9 +106,9 @@ def play
   end
 
  if won?
-   print "Congratulations #{winner}!"
+   puts "Congratulations #{winner}!"
  else
-   print "Cat's Game!"
+   puts "Cat's Game!"
  end
 end
 
