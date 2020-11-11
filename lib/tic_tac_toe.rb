@@ -104,7 +104,7 @@ def play
   until won? || over? || draw?
     turn
   end
-  
+
  if won?
    puts "Congratulations #{winner}!!!"
  else
