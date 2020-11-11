@@ -34,7 +34,7 @@ class TicTacToe
         return true
       end
       if input == 1-9
-        return true
+        return false
       end
     end
 
