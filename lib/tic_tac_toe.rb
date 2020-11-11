@@ -53,7 +53,7 @@ class TicTacToe
       end
     end
 
-    def turn
+    def turn(input)
     end
 
 
