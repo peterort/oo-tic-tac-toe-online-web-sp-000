@@ -62,7 +62,7 @@ class TicTacToe
       move(index)
       display_board
     else
-      turn
+      restart turn
     end
 
 
