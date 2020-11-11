@@ -87,6 +87,7 @@ class TicTacToe
         i.include? "X" || i.include? "O"
       end
     end
+    end
 
 
 end
