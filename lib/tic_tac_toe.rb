@@ -107,7 +107,7 @@ def play
 #  #until the game is over
 #  take turns
 #end
- if won?
+ if won? || over? || draw?
    puts "Congratulations #{winner}!!!"
  else
    puts "The game ended in a draw."
