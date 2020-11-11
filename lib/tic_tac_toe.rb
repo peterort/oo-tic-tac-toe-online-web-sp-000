@@ -54,12 +54,11 @@ class TicTacToe
       puts "Please enter your move between 1-9" #ask for input
       input = gets.strip #get input
       index = input_to_index(input)
-      if valid_move?(index) == false
-        turn
+      if valid_move?(index) == true
+        @board[index] = current_player
+        display_board
       else
-      current_player
-      move(index)
-      display_board
+      turn
     end
     end
 
@@ -99,6 +98,7 @@ class TicTacToe
         current_player == "X"? "O" : "X"
       end
     end
+
 
 def play
   until won? || over? || draw?
