@@ -33,6 +33,9 @@ class TicTacToe
       if position_taken?(input) == false
         return true
       end
+      if input == 1-9
+        return true
+      end
     end
 
 
