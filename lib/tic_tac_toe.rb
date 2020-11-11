@@ -112,6 +112,7 @@ def play
  else
    puts "The game ended in a draw."
  end
+ end
 #if the game was won
 #  congratulate the winner
 #else if the game was a draw
