@@ -83,10 +83,6 @@ class TicTacToe
     end
 
     def full?
-      board.each do |i|
-        i.include? "X" || i.include? "O"
-      end
-    end
     end
 
 
