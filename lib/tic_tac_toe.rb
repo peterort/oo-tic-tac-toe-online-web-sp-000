@@ -67,6 +67,7 @@ class TicTacToe
       board.each do |i|
         if i = WIN_COMBINATIONS
           return true
+        end
     end
 
 
