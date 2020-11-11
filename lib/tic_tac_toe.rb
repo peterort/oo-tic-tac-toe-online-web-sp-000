@@ -15,7 +15,7 @@ class TicTacToe
     end
 
     def input_to_index(input)
-      integer = input.to_i - 1
+      index = input.to_i - 1
     end
 
 
