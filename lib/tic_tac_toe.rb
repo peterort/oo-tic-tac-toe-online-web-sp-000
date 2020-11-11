@@ -53,7 +53,7 @@ class TicTacToe
       end
     end
 
-    def turn(input)
+    def turn
       puts "Please enter your move between 1-9"
 #      ask for input
 #get input
