@@ -103,6 +103,7 @@ class TicTacToe
 def play
   until won? || over? || draw?
     turn
+  end
 
 #  #until the game is over
 #  take turns
@@ -112,7 +113,7 @@ def play
  else
    puts "The game ended in a draw."
  end
- end
+
 #if the game was won
 #  congratulate the winner
 #else if the game was a draw
