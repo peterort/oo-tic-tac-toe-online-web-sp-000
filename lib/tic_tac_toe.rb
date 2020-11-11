@@ -94,5 +94,8 @@ class TicTacToe
       won? || full?
     end
 
+    def winner
+    end
+
 
 end
