@@ -42,6 +42,7 @@ class TicTacToe
         if i == "X" || "O"
           counter += 1
         end
+      end
         counter
     end
 
