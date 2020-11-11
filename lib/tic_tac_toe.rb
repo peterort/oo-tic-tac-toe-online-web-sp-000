@@ -11,7 +11,6 @@ class TicTacToe
       print "#{board(3)} | #{board(4)} | #{board(5)}"
       print "#{board(6)} | #{board(7)} | #{board(8)}"
     end
-  end
 
 
 end
