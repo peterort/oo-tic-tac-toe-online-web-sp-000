@@ -37,13 +37,13 @@ class TicTacToe
     end
 
     def turn_count
-      counter = 0
+      count = 0
       @board.each do |i|
-        if i.include? "X" || "O"
-          counter += 1
+        if i == "X" || i == "O"
+          count += 1
         end
       end
-        counter
+        count
     end
 
 
