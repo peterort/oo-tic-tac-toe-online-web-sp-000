@@ -32,6 +32,7 @@ class TicTacToe
     def valid_move?(input)
       if @board[input] == 1-9 && " "
         return true
+      end
     end
 
 
