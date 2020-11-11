@@ -34,8 +34,9 @@ class TicTacToe
         position_taken?(input) == false
       else false
       end
+    end
 
-
+    def turn_count
     end
 
 
