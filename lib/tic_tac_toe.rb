@@ -63,6 +63,7 @@ class TicTacToe
       current_player
       move(index)
       display_board
+    end
 
 
 
