@@ -23,7 +23,7 @@ class TicTacToe
     end
 
     def position_taken?(input)
-      if @board[input] == "X" || "O"
+      if @board[input] != "X" || "O"
         return true
       end
     end
