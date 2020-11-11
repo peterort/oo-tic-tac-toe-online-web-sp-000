@@ -101,13 +101,13 @@ class TicTacToe
     end
 
 def play
-  until over?
+  until won? || over? || draw?
     turn
   end
 #  #until the game is over
 #  take turns
 #end
- until won? || over? || draw?
+ if won?
    puts "Congratulations #{winner}!!!"
  else
    puts "The game ended in a draw."
