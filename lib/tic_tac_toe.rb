@@ -33,7 +33,7 @@ class TicTacToe
       if position_taken?(input) == false
         return true
       end
-      if input == 1-9
+      if input == 0-8
         return false
       end
     end
