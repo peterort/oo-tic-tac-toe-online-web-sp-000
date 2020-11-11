@@ -19,6 +19,7 @@ class TicTacToe
     end
 
     def move(input, token = "X")
+      board = input, token
     end
 
 
